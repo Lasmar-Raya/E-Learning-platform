@@ -1,0 +1,112 @@
+*{padding: 0px ;margin: 0px; }
+
+#header{
+	width:100%;
+    background-color: rgb(0, 4, 36);
+    height: 60px;
+    }
+
+#logo{
+    width: 20%;
+    color:white;
+    float: left;
+ }
+#logo h2{ text-align: centre; line-height: 60px; margin-left: 5%;}
+
+#title{
+    width: 60%;
+    float: left;
+    height: 60px;
+}
+#title h1{
+    margin-left: 30%;
+    color: #f5d15a;
+    font-size: bold;
+    line-height: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#logout{
+    width:10%;
+    height:60px;
+    float: left;
+    color: white;
+    text-align: center;
+}
+#logout h3{text-align: center;line-height: 60px;}
+#logout h3 a{text-decoration: none; color:#fff;}
+#logout h3:hover{background: rgb(0, 4, 36)}
+
+#body_left{
+    width :20%;
+    height :680px;
+    background: rgb(0, 4, 36);
+    float :left;
+    overflow-y: auto;
+}
+#body_left h3{color :white ; text-align: center; font-size: 16px; line-height: 30px; background:#f5d15a;}
+#body_left ul{list-style-type: none; }
+#body_left ul li{width: 100%; height: 30px; line-height: 30px; padding-left: 5%; box-sizing: border-box;}
+#body_left ul li a{display: block; text-decoration: none; color:  white; font-size: 12px;}
+#body_left ul li:hover{background: #f5d15ac5;}
+#body_left ul li:hover a{color: rgb(0, 4, 36);}
+
+#body_right{
+    width :80%;
+    height :680px;
+    background:#fff;
+    float :left;
+    overflow-y: auto;
+}
+#body_right h3{color :white ; text-align: center; font-size: 16px; line-height: 30px; background:#f5d15a;}
+
+#add{width: 100%; padding: 2%; box-sizing: border-box;}
+#add details{width: 60%; margin: auto;}
+#add details summary{cursor:pointer;width: 100%; height: 30px; color: #3f5267; border:1px solid #3f5267 ;outline: none; font-size: 12px; text-align: center;line-height: 30px;}
+#add details form{background:#74889e ; padding: 3%; box-sizing: border-box;}
+#add details form input{margin-bottom: 2%; width: 100%; height: 30px; outline: none; padding-left: 3%;box-sizing: border-box; font-size: 12px;}
+#add details form select{margin-bottom: 2%; width: 100%; height: 30px; outline: none; padding-left: 3%;box-sizing: border-box; font-size: 12px;}
+#add details form button{color:#fff;width: 40%; height: 30px; background: none;outline: none;border: 1px solid #3f5267; font-size: 12px;}
+#add details form button:hover{cursor: pointer; background: white; color: #3f5267;}
+#add table{width: 100%; margin-top: 20px;}
+#add table tr th{height: 35px; background: rgb(26 26 67 / 93%); color: white; text-align: left; padding-left: 2%; box-sizing: border-box;}
+#add table tr td{ color:rgb(26 26 67 / 93%) ; height: 30px; padding-left: 2%; box-sizing: border-box;}
+#add summary {background-color: rgb(245 ,209, 90); border-radius: 10px; font-size: 15px; margin-top:20px; margin-bottom :20px;  }
+
+#edit_form{ padding: 2%; box-sizing: border-box; margin: auto; width: 50%; }
+#edit_form input{margin-bottom: 3%; width: 100%; height: 30px; outline: none; padding-left: 3%;box-sizing: border-box; font-size: 12px;}
+#edit_form select{margin-bottom: 3%; width: 100%; height: 30px; outline: none; padding-left: 3%;box-sizing: border-box; font-size: 12px;}
+#edit_form button{cursor:pointer; color:rgb(26 26 67 / 93%);width: 40%; height: 30px; background: none;outline: none;border: 1px solid rgb(26 26 67 / 93%); font-size: 12px;}
+#edit_form button:hover{color: white; background: rgb(26 26 67 / 93%);}
+
+.form-module {background-color: #d4cabc; padding: 50px;  position: inherit; width: 60%;  margin-left:270px; margin-top: 60px; border: 3px solid rgb(13, 11, 37);}
+.form-module form { width: 80%; height: 80%;  padding-top: 30px; margin-left: 20px;  text-align: left; }
+.form-module input[type="file"]{background-color:rgb(22, 0, 71); border-radius:15px ; padding: 10px; margin: 10px; color: white; font-size: 20px;}
+.form-module select { margin-left:12px;font-size:20px; padding: 8px 12px; color: white; background-color:rgb(22, 0, 71) ;border: 1px solid rgb(30, 24, 80); cursor: pointer; border-radius: 5px;}
+ i {margin:15px;  background-color:rgb(30, 24, 80); color: white; border-radius: 50%; padding:20px; font-size: 20px; float: left;}
+ i:hover{color: rgb(1, 3, 15); background-color:rgba(33, 26, 90, 0.733);}
+
+.form-module input[type="submit"]{ background-color: rgb(22, 0, 71); width: 200px; height: 40px; padding: 7px;margin-top:70px; border-radius: 15px; color:white;  font-size: 20px;} 
+.form-module input[type="submit"]:hover{background-color:rgba(17, 13, 46, 0.733);}
+.ss{ margin-top:50px;}
+.ss  a { border-radius:15px; color:white; background-color: rgba(17, 13, 46, 0.733); width: 140px; height :40px;margin-left: 35px; padding-right: 10px; padding-left: 10px; text-decoration: none; padding-top: 5px; padding-bottom: 5px;}
+.ss  a:hover{background-color: rgba(13, 10, 54, 0.747); color:#dabf28; font-size: 15px;}
+.php{margin-top:15px;text-align: center;color:rgb(1, 3, 15);box-shadow:  0 0 1em #9d99d0;width: 100%; height: 30px;  font-size: 35px;font-family: serif;text-align: center; padding-top: 10px; line-height:center;}
+
+#con{width: 100%; padding: 5%; box-sizing: border-box; margin:auto;}
+#con form table{width: 70%;}
+#con form table tr td{width: 50%; height: 25px; font-size: 14px;}
+#con form table tr td input{padding-left:3%;width: 100%; height: 30px;  outline: none;}
+#con form button{margin-top: 50px;color:white; background-color: #da8d28;cursor:pointer;width: 30%; height: 30px; outline: none; font-size: 20px; border:none;}
+#about form textarea{ border-radius: 5px;border: 1px solid rgb(22, 0, 71);box-shadow: 1px 1px 1px rgb(22, 0, 71); padding:1% ; width: 60%; height: 100px;margin-top:50px;margin-bottom:50px; margin-left:230px;}
+#about form input{outline: none; font-size: 20px;width: 30%; height: 30px;color:white; background-color: #da8d28; cursor:pointer; border:none; }
+#add details form textarea{margin-bottom: 2%; width: 100%; height: 100px; outline: none; padding: 3%;box-sizing: border-box; font-size: 12px;}
+
+.div_semestre{margin-top:60px;background-color: rgba(13, 10, 54, 0.747); height:60px; padding-top:30px;}
+.div_semestre input[type="submit"]{ border: none; background-color: rgb(22, 0, 71); width: 200px; height: 40px; padding: 7px; margin-left:250px; border-radius: 15px; color:white;  font-size: 20px;} 
+.div_semestre input[type="submit"]:hover{background-color:rgba(17, 13, 46, 0.733);}
+.div_semestre select { border:none; height:40px;margin-left:20px;font-size:20px; padding: 8px 10px; color: black; background-color:white ; cursor: pointer; border-radius: 5px;}
+
+.div_semestre input[type="text"] {height: 40px; border-radius: 8px; border: none; width: 300px; text-align:center;margin-right: 5px;margin-left: 100px; } 
+
+
